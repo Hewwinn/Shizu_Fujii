@@ -46,17 +46,17 @@ flex-direction: row;
 }
 
 .nav_item {
-padding: 15px;
+    padding: 15px;
 }
-
+    
 .nav_item:hover {
     background-color: white;
 }
-
+    
 .nav_item:hover .nav_link {
     color: black;
 }
-
+    
 .nav_item a:hover {
     color: black;
 }
@@ -69,7 +69,6 @@ padding: 15px;
     color: white;
     text-decoration: none;
 }
-
 
 .nav_link:hover {
     text-decoration: underline;
@@ -103,47 +102,6 @@ font-weight: 500;
 margin-bottom: 35px;
 }
 
-.header_btn {
-display: inline-block;
-height: 65px;
-padding-left: 35px;
-padding-right: 35px;
-border-radius: 35px;
-background-color: yellow;
-background-image: linear-gradient(to top, #ffcc00 0%, #fadb60 100%);
-
-color: black;
-font-size: 24px;
-font-weight: 700px;
-text-decoration: none;
-
-line-height: 65px;
-}
-
-.header_btn:hover {
-    text-decoration: underline;
-}
-
-.header_btn2 {
-    display: inline-block;
-    height: 65px;
-    padding-left: 35px;
-    padding-right: 35px;
-    border-radius: 35px;
-    background-color: yellow;
-    background-image: linear-gradient(to top, #ffcc00 0%, #fadb60 100%);
-    
-    color: black;
-    font-size: 24px;
-    font-weight: 700px;
-    text-decoration: none;
-    
-    line-height: 65px;
-    }
-    
-    .header_btn2:hover {
-        text-decoration: underline;
-    }
 
 .header-photo {
     width: 700px;
@@ -151,6 +109,7 @@ line-height: 65px;
 
 .vs {
 color: white;
+padding-left: 15px;
 }
 
 .vs a {
