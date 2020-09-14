@@ -11,11 +11,14 @@ body {
 
 
 .dropdown-link{
+    color: black !important;
     text-align: left;
 }
 
+
+
 .dropdown-text {
-    color: rgb(34, 34, 34) !important;
+    color: rgb(0, 0, 0) !important;
     cursor: default;
     text-align: center;
   }
