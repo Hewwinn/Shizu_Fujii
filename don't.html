@@ -6,31 +6,48 @@
 <meta name="viewport" content="width=device-width, initial-scale="1.0"">
 <link rel="stylesheet" href="CSS/don't.css">
 <link rel="shortcut icon" href="img/mavka.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-
     <header class="header">
 
-        <div class="container">
-            <nav class="nav-wrapper">
-                <div class="logo"><span>Shizuya</span> Fujii</div>
-
-                <ul class="nav">
-                 <li class="nav_item" href="index.html">
-                  <a class="nav_link" href="index.html">О боте</a>
-                 </li>
-                 <li class="nav_item" href="cmds.html">
-                  <a class="nav_link" href="cmds.html">Комманды</a>
-                 </li>
-                 <li class="nav_item" href="List.html">
-                  <a class="nav_link" href="List.html">Изменения</a>
-                 </li>
-                 <li class="nav_item" href="">
-                  <a class="nav_link" href="">Поддержка ▼</a>
-                 </li>
-                </ul>
-            </nav>
-
+        <header class="header">
+            <!-- ? JavaScript materialize-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="js/morphext.min.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script>
+        new WOW().init();
+      </script>
+                <!-- Dropdown Structure -->
+                <div class="navbar-fixed">
+                    <ul id="dropdown1" class="dropdown-content">
+                      <li><a class="dropdown-link" href="https://vk.com/id556476302">vk</a></li>
+                      <li><a class="dropdown-link" href="#!" onclick="M.toast({html: 'Пока что он не доступен, когда он появиться мы неприменно сообщим вам.'})"">Shizu support</a></li>
+                      <li class="divider"></li>
+                      <li><p class="dropdown-text">Discord: Hewin#9502</p></li>
+                    </ul>
+                   <nav>
+                   <div class="nav-wrapper black">
+                    <div class="logo"><span>Shizuya</span> Fujii</div>
+                    <ul class="right hide-on-med-and-down">
+                      <li class="nav_item"><a class="nav_link" href="index.html">О боте</a></li>
+                      <li class="nav_item"><a class="nav_link" href="cmds.html">Комманды</a></li>
+                      <li class="nav_item"><a class="nav_link" onclick="M.toast({html: 'Вы и так на этой странице'})"  href="#">Изменения</a></li>
+                    <!-- Dropdown Trigger -->
+                      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Поддержка<i class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
+                    <script>
+                      // Or with jQuery
+                    
+                      $('.dropdown-trigger').dropdown();
+                    </script>
+                   </div>
+                   </nav>
+                   </div>
 <div class="header-content">
    <div class="header-desc">
        <h1 class="header_title">
@@ -42,6 +59,7 @@
    </div> 
    
 </div>
+<br><br><br><br>
 <div class="vs"> 
     <p>Вернутся на <a href="index.html">главную</a></p>
     </div>
