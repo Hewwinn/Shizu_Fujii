@@ -40,6 +40,18 @@ body {
     color: yellow;
 }
 
+.logo a {
+    color: orange;
+    font-family: "Courier New";
+    font-size: 40px;
+    line-height: 1;
+}
+
+.logo span a {
+    color: yellow;
+}
+
+
 .nav {
 margin: 0;
 padding: 0;
@@ -81,8 +93,13 @@ color: black;
 
 .header-desc {
  width: 500px;
- padding-top: 200px;
+ padding-top: 50px;
  padding-left: 15px;
+}
+
+.header_star{
+    margin-left: 100px;
+    box-shadow: black;
 }
 
 .header_title {
@@ -101,47 +118,104 @@ font-weight: 500;
 margin-bottom: 35px;
 }
 
+.stroke {
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px 0;
+    margin-right: 200px;
+  }
+.btn_space {
+    list-style: none;
+    text-align: center;
+  }
+
 .header_btn {
-display: inline-block;
-height: 65px;
-padding-left: 35px;
-padding-right: 35px;
-border-radius: 35px;
-background-color: yellow;
-background-image: linear-gradient(to top, #ffcc00 0%, #fadb60 100%);
-
-color: black;
-font-size: 24px;
-font-weight: 700px;
-text-decoration: none;
-
-line-height: 65px;
-}
-
-.header_btn:hover {
-    text-decoration: underline;
-}
-
-.header_btn2 {
+    width: 185px;
+    height: 60px;
     display: inline-block;
-    height: 65px;
-    padding-left: 35px;
-    padding-right: 35px;
-    border-radius: 35px;
     background-color: yellow;
     background-image: linear-gradient(to top, #ffcc00 0%, #fadb60 100%);
-    
+    border-radius: 35px;
+    overflow: hidden;
+    font-family: 'Courier New';
+    padding: 13px;
+    text-decoration: none;
     color: black;
     font-size: 24px;
-    font-weight: 700px;
+    margin: 0 10px;
+
+}
+
+.header_btn,
+.header_btn:after,
+.header_btn:before {
+    transition: all .5s;
+  }
+.header_btn:hover {
+    color: black;
+  }
+  
+  
+  .header_btn1 {
+    width: 150px;
+    height: 60px;
+    display: inline-block;
+    background-color: yellow;
+    background-image: linear-gradient(to top, #ffcc00 0%, #fadb60 100%);
+    border-radius: 35px;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 13px;
     text-decoration: none;
-    
-    line-height: 65px;
+    color: black;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.header_btn1,
+.header_btn1:after,
+.header_btn1:before {
+    transition: all .5s;
+  }
+.header_btn:hover {
+    color: black;
+  }
+
+  .pulse {
+    background-color: rgb(228, 245, 0);
+    border-radius: 50%;
+    animation: pulse 0.7s ease-out;
+    transform: scale(0);
+    position: absolute;
+   }
+   @keyframes pulse {
+    to {
+     transform: scale(2);
+     background-color: #fff;
+     opacity: 0;
     }
-    
-    .header_btn2:hover {
-        text-decoration: underline;
-    }
+   } 
+
+  /* stroke */
+div.stroke a{
+  position: relative;
+}
+div.stroke a:after {
+  position: absolute;
+  bottom: -25;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: black;
+  height: 2px;
+}
+div.stroke a:hover:after {
+  width: 80%;
+}
 
 .header-photo {
     width: 700px;
