@@ -1,9 +1,10 @@
 <html lang="en">
 <head>
-<title>Shizuya Fujii</title>
 
+  <title>Shizuya Fujii</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale="1.0"">
+<link href='https://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="CSS/main.css">
 <link rel="shortcut icon" href="img/mavka.ico" type="image/x-icon">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -24,14 +25,14 @@
                 <!-- Dropdown Structure -->
                 <div class="navbar-fixed">
         <ul id="dropdown1" class="dropdown-content">
-          <li><a class="dropdown-link" href="https://vk.com/id582720309">vk</a></li>
+          <li><a class="dropdown-link" href="https://vk.com/id556476302" target="_blank">vk</a></li>
           <li><a class="dropdown-link" href="#!" onclick="M.toast({html: 'Пока что он не доступен, когда он появиться мы неприменно сообщим вам.'})"">Shizu support</a></li>
           <li class="divider"></li>
           <li><p class="dropdown-text">Discord: Hewin#9502</p></li>
         </ul>
        <nav>
        <div class="nav-wrapper black">
-        <div class="logo"><span>Shizuya</span> Fujii</div>
+        <div class="logo"><span><a href="index.html">Shizuya</a></span> <a href="index.html">Fujii</a></div>
         <ul class="right hide-on-med-and-down">
           <li class="nav_item"><a class="nav_link" onclick="M.toast({html: 'Вы и так на этой странице'})" href="#">О боте</a></li>
           <li class="nav_item"><a class="nav_link" href="cmds.html">Комманды</a></li>
@@ -49,6 +50,9 @@
        </div>
        <div class="header-content">
         <div class="header-desc">
+          <div class="header_star">
+            <img src="img/star.png" /*onclick="window.location.href=''"*/>
+          </div>
             <h1 class="header_title">
              Бот для развлечений
             </h1>
@@ -57,9 +61,12 @@
                  Бот предназначен для развлечений, немного контента для админов и другое.
                 </p>
             </div>
-            <a href="https://discord.com/api/oauth2/authorize?client_id=667403453609410570&permissions=8&scope=bot" class="header_btn">Пригласить</a>
-            <a href="don't.html" class="header_btn2">Исходник</a>
-     
+            <div class="stroke">
+            <ul class="btn_space">
+            <a class="header_btn" href="https://discord.com/api/oauth2/authorize?client_id=667403453609410570&permissions=8&scope=bot" target="_blank">Пригласить</a>
+            <a class="header_btn1" href="don't.html" onclick="url=this.href;setTimeout('location.href=url',300);this.href='javascript:void(0)';">Исходник</a></li>
+            </ul>
+          </div>
         </div>
         <div class="header-photo">
             <img src="img/avka.png">
@@ -76,7 +83,8 @@
 
     </header>
     <footer class="footer">
-        <p>Некоторые исходники взяты с <a href="https://tflashgamer.github.io/oni.html">Oni</a>.
+        <p>Некоторые исходники взяты с <a href="https://tflashgamer.github.io/oni.html" target="_blank">Oni</a>.
         </p></footer>
+        <script src="script.js"></script>  
 </body>
 </html>
