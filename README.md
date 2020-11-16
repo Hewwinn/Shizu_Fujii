@@ -1,4 +1,4 @@
 # Shizu_Fujii
 Сайт для бота Shizu!
 
-https://Hewinn.github.io/Shizu_Fujii
+https://Hewwinn.github.io/Shizu_Fujii
