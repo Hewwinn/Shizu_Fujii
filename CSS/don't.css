@@ -1,11 +1,11 @@
 body {
-    margin: 0;
+    margin: 0; 
     color: white;
     font-family: "Courier New";
 }
 .header {
     width: 100%;
-    height: 900px;
+    height: 93%;
     background: radial-gradient( 50% 100% at center, rgb(61, 61, 61), rgb(44, 44, 44));
 }
 
@@ -13,12 +13,14 @@ body {
 .dropdown-link{
     color: black !important;
     text-align: left;
+    font-family: "Courier New";
 }
 
 .dropdown-text {
     color: rgb(34, 34, 34) !important;
     cursor: default;
     text-align: center;
+    font-family: "Courier New";
   }
 
 .nav-wrapper {
@@ -27,6 +29,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 90px;
+    font-family: "Courier New";
 }
 
 .logo {
@@ -38,6 +41,19 @@ body {
 
 .logo span {
     color: yellow;
+}
+
+.logo a {
+    color: orange;
+    font-family: "Courier New";
+    font-size: 40px;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.logo span a {
+    color: yellow;
+    text-decoration: none;
 }
 
 .nav {
@@ -61,6 +77,7 @@ flex-direction: row;
 .nav_link {
     color: rgb(255, 255, 255);
     text-decoration: none;
+    font-family: "Courier New";
 }
 
 
@@ -68,10 +85,26 @@ flex-direction: row;
     color: black;
 }
 
+.dropdown-trigger{
+    text-decoration: none;
+}
+
 .dropdown-trigger:hover {
 background: white;
 color: black;
 }
+
+.dropdown-link{
+    color: black !important;
+    text-align: left;
+    text-decoration: none;
+}
+
+.dropdown-text {
+    color: rgb(34, 34, 34) !important;
+    cursor: default;
+    text-align: center;
+  }
 
 .header-content {
     display: flex;
@@ -92,6 +125,7 @@ font-size: 43px;
 line-height: 1.3;
 margin: 0;
 margin-bottom: 35px;
+font-family: "Courier New";
 }
 
 
@@ -100,22 +134,23 @@ margin-bottom: 35px;
 }
 
 .vs {
-color: white;
-padding-left: 15px;
-}
-
-.vs a {
-    text-decoration: none;
-    color: yellow;
-}
-
-.vs a:hover {
-    text-decoration: underline;
-}
+    color: white;
+    padding-left: 15px;
+    padding-top: 4%;
+    font-family: "Courier New";
+    }
+    .vs a {
+        text-decoration: none;
+        color: yellow;
+    }
+    
+    .vs a:hover {
+        text-decoration: underline;
+    }
 
 .footer{
     width: 100%;
-    height: 114px;
+    height: 7%;
     background-color: black;
     color: white;
 
@@ -126,7 +161,7 @@ padding-left: 15px;
     font-size: 16px;
     font-weight: 500;
     line-height: 34px;
-
+    font-family: "Courier New";
 
 }
 
@@ -139,6 +174,7 @@ padding-left: 15px;
 .footer a {
 color: aqua;
 text-decoration: none;
+font-family: "Courier New";
 }
 
 .footer a:hover {
