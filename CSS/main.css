@@ -3,18 +3,19 @@ body {
     color: white;
     font-family: "Courier New";
 }
+
 .header {
     width: 100%;
     height: 93%;
     background: radial-gradient( 50% 100% at center, rgb(61, 61, 61), rgb(44, 44, 44));
 }
 
-.dropdown-trigger{
+.dropdown-trigger {
     text-decoration: none;
     font-family: "Courier New";
 }
 
-.dropdown-link{
+.dropdown-link {
     color: black !important;
     text-align: left;
     text-decoration: none;
@@ -26,7 +27,7 @@ body {
     cursor: default;
     text-align: center;
     font-family: "Courier New";
-  }
+}
 
 .nav-wrapper {
     display: flex;
@@ -61,15 +62,13 @@ body {
     text-decoration: none;
 }
 
-
 .nav {
-margin: 0;
-padding: 0;
-list-style: none;
-display: flex;
-flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
 }
-
 
 .nav_item:hover {
     background: white;
@@ -86,59 +85,60 @@ flex-direction: row;
     font-family: "Courier New";
 }
 
-
 .nav_link:hover {
     color: black;
 }
 
 .dropdown-trigger:hover {
-background: white;
-color: black;
+    background: white;
+    color: black;
 }
 
 .header-content {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: space-between;
 }
 
 .header-desc {
- width: 30%;
- padding-top: 5%;
- padding-left: 1%;
+    width: 30%;
+    padding-top: 5%;
+    padding-left: 1%;
 }
 
-.header_star{
+.header_star {
     margin-left: 16%;
     box-shadow: black;
 }
 
 .header_title {
-color: white;
-font-weight: 800;
-font-size: 42px;
-line-height: 1.3;
-margin: 0;
-margin-bottom: 3%;
-font-family: "Courier New";
+    color: white;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 1.3;
+    margin: 0;
+    margin-bottom: 3%;
+    font-family: "Courier New";
 }
 
 .header_text {
-font-size: 20px;
-line-height: 1.7;
-font-weight: 500;
-margin-bottom: 5%;
-font-family: "Courier New";
+    font-size: 20px;
+    line-height: 1.7;
+    font-weight: 500;
+    margin-bottom: 5%;
+    font-family: "Courier New";
+    color: white;
 }
 
 .stroke {
     width: 80%;
     margin-right: 20%;
-  }
+}
+
 .btn_space {
     list-style: none;
     text-align: center;
-  }
+}
 
 .header_btn {
     font-weight: bold;
@@ -161,14 +161,14 @@ font-family: "Courier New";
 .header_btn:after,
 .header_btn:before {
     transition: all .5s;
-  }
+}
+
 .header_btn:hover {
     text-decoration: none;
     color: black;
-  }
-  
-  
-  .header_btn1 {
+}
+
+.header_btn1 {
     font-weight: bold;
     width: 40%;
     height: 10%;
@@ -189,46 +189,52 @@ font-family: "Courier New";
 .header_btn1:after,
 .header_btn1:before {
     transition: all .5s;
-  }
+}
+
 .header_btn1:hover {
     text-decoration: none;
     color: black;
-  }
+}
 
-  .pulse {
+.pulse {
     background-color: rgb(228, 245, 0);
     border-radius: 50%;
     animation: pulse 0.7s ease-out;
     transform: scale(0);
     position: absolute;
-   }
-   @keyframes pulse {
-    to {
-     transform: scale(2);
-     background-color: #fff;
-     opacity: 0;
-    }
-   } 
+}
 
-  /* stroke */
-div.stroke a{
-  position: relative;
+@keyframes pulse {
+    to {
+        transform: scale(2);
+        background-color: #fff;
+        opacity: 0;
+    }
 }
+
+
+/* stroke */
+
+div.stroke a {
+    position: relative;
+}
+
 div.stroke a:after {
-  position: absolute;
-  bottom: -25;
-  left: 0;
-  right: 0;
-  top: 0;
-  margin: auto;
-  width: 0%;
-  content: '.';
-  color: transparent;
-  background: black;
-  height: 2px;
+    position: absolute;
+    bottom: -25;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: black;
+    height: 2px;
 }
+
 div.stroke a:hover:after {
-  width: 80%;
+    width: 80%;
 }
 
 .header-photo {
@@ -236,11 +242,12 @@ div.stroke a:hover:after {
 }
 
 .vs {
-color: white;
-padding-left: 15px;
-padding-top: 4%;
-font-family: "Courier New";
+    color: white;
+    padding-left: 15px;
+    padding-top: 4%;
+    font-family: "Courier New";
 }
+
 .vs a {
     text-decoration: none;
     color: yellow;
@@ -251,33 +258,29 @@ font-family: "Courier New";
     text-decoration: underline;
 }
 
-.footer{
+.footer {
     width: 100%;
     height: 7%;
     background-color: black;
     color: white;
-
     display: flex;
     justify-content: center;
     align-items: center;
-    
     font-size: 16px;
     font-weight: 500;
     line-height: 34px;
     font-family: "Courier New";
-
 }
 
 .footer::before {
     content: "";
     display: table;
-
 }
 
 .footer a {
-color: aqua;
-text-decoration: none;
-font-family: "Courier New";
+    color: aqua;
+    text-decoration: none;
+    font-family: "Courier New";
 }
 
 .footer a:hover {
