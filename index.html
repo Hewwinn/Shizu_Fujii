@@ -17,34 +17,30 @@
 <body>
 
     <header class="header ">
-          <!-- ? JavaScript materialize-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
-    <script src="js/morphext.min.js "></script>
-    <script src="js/wow.min.js "></script>
-    <script>
-      new WOW().init();
+            <!-- ? JavaScript materialize-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js "></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
+            <script src="js/morphext.min.js "></script>
+            <script src="js/wow.min.js "></script>
+            <script>
+              new WOW().init();
     </script>
                 <!-- Dropdown Structure -->
-                <div class="navbar-fixed ">
-        <ul id="dropdown1 " class="dropdown-content ">
-          <li><a class="dropdown-link " href="https://vk.com/id556476302 " target="_blank ">vk</a></li>
-          <li><a class="dropdown-link " href="#! " onclick="M.toast({html: 'Пока что он не доступен, когда он появиться мы неприменно сообщим вам.'}) "">Shizu support</a>
-    </li>
-    <li class="divider"></li>
-    <li>
-        <p class="dropdown-text">Discord: Hewin#9502</p>
-    </li>
-    </ul>
-    <nav>
+                <div class="navbar-fixed">
+                    <ul id="dropdown1" class="dropdown-content">
+                    <li><a class="dropdown-link" href="#!"onclick="M.toast({html: 'Поки що це не доступно, коли воно з`явиться ми обов`язково повідомимо вам.'})">Shizu support</a></li>
+                    <li class="divider"></li>
+                    <li><p class="dropdown-text">Discord: Hewin#9502</p></li>
+                </ul>
+             <nav>
         <div class="nav-wrapper black">
-            <div class="logo"><span><a href="index.html">Shizuya</a></span> <a href="index.html">Fujii</a></div>
+            <div class="logo"><span><a href="index.html">Shizuya</a></span> <a onclick="M.toast({html: 'Ви вже на цій строрінці'})" href="#">Fujii</a></div>
             <ul class="right hide-on-med-and-down">
-                <li class="nav_item"><a class="nav_link" onclick="M.toast({html: 'Вы и так на этой странице'})" href="#">О боте</a></li>
-                <li class="nav_item"><a class="nav_link" href="cmds.html">Комманды</a></li>
-                <li class="nav_item"><a class="nav_link" href="List.html">Изменения</a></li>
+                <li class="nav_item"><a class="nav_link" onclick="M.toast({html: 'Ви вже на цій строрінці'})" href="#">Про бота</a></li>
+                <li class="nav_item"><a class="nav_link" href="cmds.html">Комманди</a></li>
+                <li class="nav_item"><a class="nav_link" href="List.html">Змінення</a></li>
                 <!-- Dropdown Trigger -->
-                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Поддержка<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Підтримка<i class="material-icons right">arrow_drop_down</i></a></li>
             </ul>
             <script>
                 // Or with jQuery
@@ -57,20 +53,20 @@
     <div class="header-content">
         <div class="header-desc">
             <div class="header_star">
-                <img src="img/star.png" /*onclick="window.location.href=''" */>
+                <img src="img/star.png" > <!--onclick="window.location.href=''" -->
             </div>
             <h1 class="header_title">
-                Бот для развлечений
+                Бот для розваг
             </h1>
             <div class="header_text">
                 <p>
-                    Бот предназначен для развлечений, немного контента для админов и другое.
+                    Бот призначений для розваг, трішки контенту для адмінів та інше.
                 </p>
             </div>
             <div class="stroke">
                 <ul class="btn_space">
-                    <a class="header_btn" href="https://discord.com/api/oauth2/authorize?client_id=667403453609410570&permissions=8&scope=bot" target="_blank">Пригласить</a>
-                    <a class="header_btn1" href="don't.html" onclick="url=this.href;setTimeout('location.href=url',300);this.href='javascript:void(0)';">Исходник</a></li>
+                    <a class="header_btn" href="https://discord.com/api/oauth2/authorize?client_id=667403453609410570&permissions=8&scope=bot" target="_blank">Запросити</a>
+                    <a class="header_btn1" href="don't.html" onclick="url=this.href;setTimeout('location.href=url',300);this.href='javascript:void(0)';">вихідник</a></li>
                 </ul>
             </div>
         </div>
@@ -80,13 +76,12 @@
 
     </div>
     <div class="vs">
-        <p>Недавно появилась версия 0.5.3(<a href="List.html">alpha 3</a>)</p>
+        <p>Нещодавно з'явилась версія 0.5.3(<a href="List.html">alpha 3</a>)</p>
     </div>
     </header>
     </div>
     <footer class="footer">
-        <p>Некоторые исходники взяты с <a href="https://tflashgamer.github.io/oni.html" target="_blank">Oni</a>.
-        </p>
+        <p>Автор Hewwinn</p>
     </footer>
     <script src="script.js"></script>
     </body>
